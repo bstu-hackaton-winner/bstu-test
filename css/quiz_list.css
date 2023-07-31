@@ -1,0 +1,126 @@
+.notify a{
+    color: white;
+    text-decoration: none;
+}
+.quiz-card{
+    flex-basis: 250px !important;
+    flex-grow: 0 !important;
+    border: 1px solid rgba(0,0,0,.125);
+    border-top: 4px solid #3497DB;
+    border-radius: 0 0 5px 5px;
+}
+.actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.actions-icons{
+    font-size: 18px;
+}
+.actions-icons a{
+    font-size: 18px;
+}
+.actions-icons i{
+    cursor: pointer;
+}
+.create-quiz-title{
+    float: right;
+}
+.create-quiz-bottom{
+    display: none;
+}
+.no_quizzes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin: 50px;
+}
+.no_quizzes i{
+    font-size: 72px;
+    color: #122D52;
+}
+.no_quizzes h1 { font-size: 32px; }
+@media(max-width: 560px){
+    .quiz-card{
+        flex-basis: 100% !important;
+    }
+    .create-quiz-title{
+        display: none;
+    }
+    .create-quiz-bottom{
+        display: block;
+    }
+}
+.swal-text{ text-align: center; }
+
+.action_column{
+    text-align: center !important;
+}
+.action_column button{
+    font-size: 16px;
+}
+.action_column i{
+    padding-left: 5px;
+}
+.td-warp{
+    white-space: normal;
+}
+td{
+    vertical-align: middle !important;
+}
+.notify a{
+    color: white;
+    text-decoration: none;
+}
+
+.select-question{
+    cursor: pointer;
+    color: #0b5ed7;
+}
+.select-question:hover{
+    color: #0c4eb6;
+}
+#linechart, #piechart{
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10vw;
+}
+#linechart{
+    margin-left: 0 !important;
+}
+#linechart h1, #piechart h1{
+    color: #282828;
+    padding: 20px;
+    font-size: 4vw;
+    margin-left: -10vw;
+}
+#linechart h1{
+    margin-left: 0 !important;
+}
+
+@media (max-width: 1200px) {
+    #linechart, #piechart{
+        height: 50vw;
+    }
+}
+.user-agent-cell{
+    display: flex;
+    align-items: center;
+}
+.user-agent-cell i{
+    font-size: 24px;
+    margin-right: 10px;
+    margin-bottom: 3px;
+}
+.long-table td{
+    width: auto !important;
+    white-space: normal;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
